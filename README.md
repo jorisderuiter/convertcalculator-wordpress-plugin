@@ -1,4 +1,5 @@
 # ConvertCalculator for WordPress
+
 **Contributors:** convertcalculator
 **Tags:** convertcalculator, calculator, product configurator, configurator, calculator builder, product configurator builder,
 **Requires at least:** 4.4
@@ -10,6 +11,7 @@
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
 ## Description
+
 Boost sales and engagement. Reduce hassle. ConvertCalculator is the versatile calculator builder for your WordPress website that let’s your users calculate price quotes, savings, return on investments and a lot more!
 
 Why do you need an embeddable web calculator on your website?
@@ -18,9 +20,11 @@ A calculator can help your visitors find the exact price of your product more ea
 It is improbable, but should you have difficulty installing or using ConvertCalculator, send the support team an email or chat request and we will be happy to assist.
 
 ## Requirements
+
 The plugin requires a ConvertCalculator account. Sign up for free at [http://www.convertcalculator.co](http://www.convertcalculator.co?utm_source=wordpress.org).
 
 ## Installation
+
 Installing "ConvertCalculator" can be done either by searching for "ConvertCalculator" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
 
 1. Download the plugin via WordPress.org.
@@ -29,5 +33,6 @@ Installing "ConvertCalculator" can be done either by searching for "ConvertCalcu
 4. Make sure you have a calculator ready to be embedded. You can build one via [http://app.convertcalculator.co](http://app.convertcalculator.co?utm_source=wordpress.org)
 5. Navigate to your calculator (on [http://app.convertcalculator.co](http://app.convertcalculator.co?utm_source=wordpress.org)) and click on "Embed on your website". Copy the calculator id
 6. Place the calculator on your site using one of the following methods:
-  * Place `<?php wp_add_calculator($calculator_id); ?>` in your template(s). This function call takes up to one required parameter: the `id` parameter, which is the `id` you just copied.
-	* Insert a shortcode into page or post content like this `[convertcalculator id="<your_calculator_id_here"]`.
+
+- Place `<?php convertcalculator_add_calculator($calculator_id); ?>` in your template(s). This function call takes up to one required parameter: the `id` parameter, which is the `id` you just copied.
+  - Insert a shortcode into page or post content like this `[convertcalculator id="CALC_ID"]`.
